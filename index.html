@@ -236,6 +236,33 @@ h4
 {
     text-align: center;
 }
+        #box
+{
+    position:relative;
+    background-color: rgb(235, 235, 223);
+height: 40vh;
+width: 40vh;
+margin: 5rem auto;
+}
+#ck
+{
+    display: block;
+    margin: 3rem auto;
+}
+#o1
+{
+    text-align: center;
+}
+#k1
+{
+    width: 20vh;
+    height: 5vh;
+    margin: 2rem auto;
+    display: block;
+    background-color: orange;
+    color: whitesmoke;
+    border:none;
+}
 
     </style>
 </head>
@@ -309,6 +336,17 @@ h4
 
 </div>
    </div>
+     <div id="box">
+<img src="https://img.icons8.com/fluency/2x/cookie.png" id="ck">
+<p id="o1">we use cookies to optamise user experiecnce and content</p>
+<button id="k1" onclick="fun1()">ACCEPT</button>
+   </div>
+   <script>
+    function fun1()
+    {
+        document.getElementById("box").style.display="none";
+    }
+   </script>
 </body>
 
 </html>
