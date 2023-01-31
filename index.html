@@ -1,0 +1,314 @@
+<html>
+
+<head>
+    <title> valorant</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        body {
+            background-color: rgb(14, 14, 50);
+        }
+        ul{
+            list-style: none;
+            margin-top: 2rem;
+
+        }
+        #aa1{
+            text-decoration: none;
+            color: white;
+        }
+        #nav
+        {
+            display: flex;
+            justify-content: space-around;
+        }
+      ul{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      nav
+      {
+        width: 50%;
+
+      }
+      #pp
+      {
+        color:white;
+        font-size: 2rem;
+        margin-top: 1.5rem;
+      }
+      #menu
+      {
+        display: none;
+      }
+@media screen and (max-width:1000px) {
+    nav{
+        position: fixed;
+        top: 5rem;
+        left: -100%;
+        background-image: linear-gradient(rgb(0, 225, 255),rgb(4, 162, 57));
+        height: 100vh;
+        width: 100%;
+        transition: all 2s ease-in-out;
+    }
+    ul{
+        display: block;
+        text-align: center;
+
+    }
+    li{
+        margin-top: 2rem;
+    }
+    #menu
+    {
+        display: block;
+    }
+    #main
+    {
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+    }
+    #m1
+    {
+        width: 100%;
+        text-align: center;
+    }
+    #m2
+    {
+        width: 100%;
+    }
+    #b1
+    {
+        display: block;
+        margin: 1rem auto;
+    }
+    #main1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   h1{
+    font-size: small;
+   }
+   #m3
+   {
+    text-align: center;
+    margin-top: 2rem;
+   }
+   #main2
+   {
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+   }
+   .menu1
+{
+    margin-top: 2rem;
+}
+}
+#check:checked~nav
+{
+left: 0%;
+}
+#check
+{
+    display: none;
+}
+#menu
+{
+    width: 50px;
+    margin-top: 1.3rem;
+}
+#i1
+{
+    width: 100%;
+}
+#p1
+{
+    color: white;
+
+}
+h2
+{
+    color: white;
+}
+#main
+{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+#m1
+{
+width: 50vh;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-content: center;
+}
+#m2
+{
+width: 30%;
+}
+#b1
+{
+    width: 150px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+}
+h2
+{
+    color: orange;
+    font-size: 3rem;
+}
+#p1
+{
+    font-size: 2rem;
+    width: 100%;
+}
+#b1:hover
+{
+transform: scale(2,2);
+}
+#info1
+{
+    color: white;
+}
+h1
+{
+    color: white;
+}
+#main1
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+
+}
+#m3
+{
+    width: 50vh;
+}
+#i2
+{
+    width: 20%;
+}
+h3
+{
+    text-align: center;
+
+    color: orange;
+}
+#main2
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.menu1{
+    background-color: white;
+    width: 30%;
+    height: 40%;
+}
+#f1
+{
+    width: 50%;
+    display: block;
+    margin: 1rem auto;
+
+}
+h4
+{
+    text-align: center;
+}
+#pr
+{
+    text-align: center;
+}
+
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <input type="checkbox" id="check">
+       <label for="check"> <img src="https://cdn-icons-png.flaticon.com/128/9440/9440043.png" id="menu"></label>
+        <div id="pp">
+<p id="logo">FOODS</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" id="aa1">home</a></li>
+                <li><a href="#" id="aa1">about</a></li>
+
+                <li><a href="#" id="aa1">service</a></li>
+                <li><a href="#" id="aa1">menu</a></li>
+                <li><a href="#" id="aa1">contact</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <div id="main">
+<div id="m1">
+<h2>full website</h2>
+<p id="p1">food the most precious things</p>
+<button id="b1">TODAYS menu</button>
+</div>
+<div id="m2">
+<img src="home.png" id="i1">
+</div>
+    </div>
+    <h3>about us</h3>
+    <div id="main1">
+<img src="about.png" id="i2">
+    <div id="m3">
+<h1>we speak the good food language</h1>
+<p id="info1">there are many varities of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima numquam molestias maxime .</p>
+    </div>
+    </div>
+    <h3>food menu</h3>
+   <div id="main2">
+<div id="menu1" class="menu1">
+<img src="food1.png" id="f1">
+<div id="if1">
+<h3>chicken burger</h3>
+<h4>tasty food</h4>
+<p id="pr">$11.0</p>
+
+</div>
+
+</div>
+<div id="menu2" class="menu1">
+    <img src="food2.png" id="f1">
+    <div id="if1">
+        <h3>special beef burger</h3>
+        <h4>tasty food</h4>
+        <p id="pr">$11.0</p>
+
+    </div>
+</div>
+<div id="menu3" class="menu1">
+    <img src="food3.png" id="f1">
+    <div id="if1">
+        <h3>chicken fry pack</h3>
+        <h4>tasty food</h4>
+        <p id="pr">$11.0</p>
+
+    </div>
+
+</div>
+   </div>
+</body>
+
+</html>
